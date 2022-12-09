@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="gameover.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/hja6kpv.css" />
+    <script src="https://jsgame.bbz.cloud/scripts/v1/keyboard.js"></script>
+    <script src="https://jsgame.bbz.cloud/scripts/v1/timer.js"></script>
+    <script src="https://jsgame.bbz.cloud/scripts/v1/collision.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+        <div class="start-text">
+          <div class="field">
+            <div class="gamover-show">
+              <h1>Game Over!</h1>
+            </div>
+            <div class="anzeige">
+              <p class="score-gameover"> 
+                Dein Score
+                </p>
+            </div>  
+              <div class="score">
+              <span class="mgl"><p class="score-p"><script>document.write(localStorage.getItem("score"));</script></p></span>    
+              <span class="display"><img src="honey.svg" alt="" /></span>
+            </div>
+            </p>
+          <div class="img-start">
+            <a href="index.html">REPLAY</a>
+          </div>
+        </div>
+        </div>
+      </main>
+    </main>
+  </body>
+</html>
+
